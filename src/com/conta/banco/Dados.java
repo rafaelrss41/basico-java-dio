@@ -38,12 +38,15 @@ public class Dados {
 
 
     public void printUser(){
+        System.out.println("==============================");
         System.out.println("Obrigado " + user.getNomeCliente()
                 + ", por abrir sua conta no nosso Banco BCC!" + "\n"
                 +  "Conta número: "  + user.getNumero() +"\n"
                 +  "Agência número: "  + user.getAgencia() + "\n"
                 +  "Cliente: "  + user.getNomeCliente() + "\n"
                 +   "Saldo liberado: " + saldoCliente() );
+        System.out.println("==============================");
+
     }
 
 }

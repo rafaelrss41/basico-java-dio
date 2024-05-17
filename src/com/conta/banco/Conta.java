@@ -11,10 +11,7 @@ public class Conta {
     }
 
 
-
-    //getters
-
-
+    
     public int getNumero() {
         return numero;
     }
